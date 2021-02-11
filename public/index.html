@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão</title>
+  </head>
+
+  <body>
+    <div id="prediction1"></div>
+    <script src="decisionTree.js"></script>
+    <script src="svmjs/lib/svm.js"></script>
+    <script src="prediction1.js"></script>
+    <script src="prediction2.js"></script>
+    <script src="dataHandling.js"></script>
+    <script src="makeTables.js"></script>
+
+    <button onClick="prediction1()">Previsão 1 (SVM)</button>
+
+    <div id="prediction2"></div>
+
+    <button onClick="prediction2()">Previsão 2 (SVM e Decision Tree)</button>
+  </body>
+</html>

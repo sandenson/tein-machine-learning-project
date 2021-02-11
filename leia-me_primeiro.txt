@@ -1,0 +1,5 @@
+Para colocar o projeto pra funcionar:
+
+1 - No terminal, dê um "yarn".
+2 - Depois, digite o comando "yarn dev".
+3 - Quando a mensagem "Tá rodando" aparecer no terminal, vá em "localhost:3333" para abrir a página.
